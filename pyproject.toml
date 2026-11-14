@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genome-annotation-pipeline"
+version = "1.0.0"
+description = "End-to-end genome annotation pipeline: FASTA parsing, assembly QC, six-frame ORF finding, translation, protein properties, and Markdown/HTML annotation reports (standard library only)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+genome-annotate = "genome_annotation_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

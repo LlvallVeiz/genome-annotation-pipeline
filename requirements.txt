@@ -1,0 +1,6 @@
+# genome-annotation-pipeline has NO third-party dependencies.
+#
+# The package is implemented entirely with the Python standard library
+# (Python >= 3.10), so this file is intentionally empty of package
+# names. It is kept so that `pip install -r requirements.txt` succeeds
+# as a no-op in tooling that expects the file to exist.
