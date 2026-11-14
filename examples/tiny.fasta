@@ -1,0 +1,14 @@
+>contig_040 synthetic longest fragment
+ACGTACGTAC
+ACGTACGTAC
+ACGTACGTAC
+ACGTACGTAC
+>contig_030 synthetic middle fragment
+GGGGCCCCAA
+ACGTACGTAC
+AAAACCCCGG
+>contig_020 lowercase and wrapped fragment
+acgtacgtac
+ttttccccaa
+>contig_010 synthetic short fragment
+GCGCGCATAT
